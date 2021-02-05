@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .content{
+            width: 100%;
+             /* height:60px; */
+            background-color: black;
+            color:white;
+    
+        }
+        #name ,.header , #search {
+            display: inline-block;
+        }
+        #name{
+            font-size: 30px;
+            margin-left: 15px;
+            margin-right:300px;
+        }
+        .header{
+            margin-right: 100px;
+            font-size:19px;
+        }
+        #Search{            margin-left:90px
+        }
+        .header:hover{
+            color:red;
+        }
+        #Search:hover{
+            background-color: gray;
+            /* color:green */
+        }
+        #box{
+            position: absolute;
+         
+            margin-top:30px;
+            width:500px;
+            height:400px;
+            left:800px;
+        }
+        #photo{
+            font-size:80px;
+            margin-top:2px;
+            margin-left:20px;
+            font-family: cursive;
+            margin-bottom: 30px;
+        }
+        .and{
+           margin-top: 2px;
+           font-family: cursive;
+           font-size:50px;
+           margin-bottom: 0px;
+           margin-left: 130px; 
+        }
+        .stud{
+            margin-top: 2px;
+           font-family: cursive;
+           font-size:100px;
+           margin-bottom: 0px;
+           margin-left: 60px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p id="name">Kashish sharma</p>
+        <div class="header">Home</div>
+        <div class="header">Loaction</div>
+        <div class="header">About Me</div>
+        <div class="header">Content</div>
+        <input id="Search" type="text" value="Search">
+    </div>
+    <div id="box">
+        <p id="photo">Photography</p>
+        <p class="and">and Design</p>
+        <p class="stud">Studio's</p>
+    </div>
+</body>
+</html>
